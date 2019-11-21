@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Global Style</title>
+    <style>
+    /*Global Style*/
+    /* Tag selector */
+    body{
+        background-color: #333;
+        margin: 0;
+        width: 360px;
+    }
+    p{
+        background-color: green;
+        width: 100px;
+        height: 100px;
+        float: left;
+        margin: 10px;
+    }
+    .row{
+        background-color: brown;
+    }
+    .col{
+ border-radius: 50px;
+    }
+    #first{
+        border-radius: 50px 0 0 0;
+    }
+    #cub9{
+        border-radius: 0 0 50px 0;
+    }
+    .rond{
+        border-radius: 0 50px 0 0;
+    }
+    .rond1{
+        border-radius: 0 0 0 50px;
+    }
+    </style>
+</head>
+<body>
+    <p id="first">1</p>
+    <p class="col">2</p>
+    <p class="rond">3</p>
+    <p class="row">4</p>
+    <p class="row col">5</p>
+    <p class="row">6</p>
+    <p class="rond1">7</p>
+    <p class="col">8</p>
+    <p id="cub9">9</p>
+</body>
+</html>
